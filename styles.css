@@ -174,8 +174,8 @@ h1 em { color: var(--blue); font-style: normal; }
 
 .site-footer { padding: 50px 0; color: #fff; background: #071d33; }
 .footer-grid { display: grid; grid-template-columns: .8fr 1.5fr 1fr; align-items: end; gap: 40px; }
-.brand-footer { width: fit-content; padding: 9px 12px; background: #fff; border-radius: 8px; }
-.brand-footer .brand-logo { width: 130px; }
+.brand-footer { width: fit-content;}
+.brand-footer .brand-logo { width: 130px; filter: brightness(0) invert(1);}
 .site-footer p { margin: 0; font-size: .78rem; line-height: 1.7; }
 .site-footer p span { color: #748298; }
 .footer-end { text-align: right; letter-spacing: .08em; }
